@@ -54,7 +54,6 @@ In addition to the packages included in [Bazzite](https://github.com/ublue-os/ba
 #### Utilities
 
 - Syncthing
-- 1Password
 - Stow
 - scrcpy (used for controlling an android phone over USB)
 
