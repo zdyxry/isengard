@@ -55,7 +55,6 @@ In addition to the packages included in [Bazzite](https://github.com/ublue-os/ba
 
 - Syncthing
 - Stow
-- scrcpy (used for controlling an android phone over USB)
 
 ### Git Repositories (simple clone)
 
