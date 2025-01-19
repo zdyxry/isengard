@@ -26,6 +26,8 @@ programming_packages=(
   "ghostty"
   "nodejs"
   "zed"
+  "go"
+  "rust"
 )
 
 utility_packages=(
