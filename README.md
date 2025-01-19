@@ -1,7 +1,7 @@
 ![Isengard Logo](assets/logo.jpg)
 
 # Isengard
-[![build-isengard](https://github.com/noelmiller/isengard/actions/workflows/build.yml/badge.svg)](https://github.com/noelmiller/isengard/actions/workflows/build.yml) [![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/isengard)](https://artifacthub.io/packages/search?repo=isengard)
+[![build-isengard](https://github.com/zdyxry/isengard/actions/workflows/build.yml/badge.svg)](https://github.com/zdyxry/isengard/actions/workflows/build.yml) [![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/isengard)](https://artifacthub.io/packages/search?repo=isengard)
 
 Custom Fedora Atomic Image for Desktops and Laptops. This is my take on what the modern Linux Desktop should look like.
 
@@ -127,7 +127,7 @@ The full documentation for cockpit can be found [here](https://cockpit-project.o
 If you do decide you want to try my image, you will want to rebase from Fedora Kinoite using this command:
 
 ```bash
-rpm-ostree rebase ostree-unverified-registry:ghcr.io/noelmiller/isengard:latest
+rpm-ostree rebase ostree-unverified-registry:ghcr.io/zdyxry/isengard:latest
 ```
 
 After rebase, you will need to run the command below to install all flatpaks that are shipped with Bazzite and Isengard
@@ -143,7 +143,7 @@ If there is demand, I may publish ISOs.
 These images are signed with sigstore's [cosign](https://docs.sigstore.dev/cosign/overview/). You can verify the signature by downloading the `cosign.pub` key from this repo and running the following command:
 
 ```bash
-cosign verify --key cosign.pub ghcr.io/noelmiller/isengard
+cosign verify --key cosign.pub ghcr.io/zdyxry/isengard
 ```
 
 ## Special Thanks
