@@ -2,6 +2,6 @@
 
 set -ouex pipefail
 
-systemctl enable docker.socket
+# systemctl enable docker.socket
 
-systemctl enable sshd.socket
+# systemctl enable sshd.socket
