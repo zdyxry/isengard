@@ -7,6 +7,7 @@ COPY system_files /
 COPY scripts /scripts
 
 RUN /scripts/preconfigure.sh && \
+    /scripts/install_packages.sh && \
     /scripts/enable_services.sh && \
     /scripts/cleanup.sh && \
     ostree container commit
