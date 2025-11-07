@@ -10,4 +10,4 @@ gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-ac-type 'no
 sysctl -p
 
 # Disable SELinux
-sed -i 's/^SELINUX=.*/SELINUX=disabled/' /etc/selinux/config
+sed -i 's/^SELINUX=.*/SELINUX=permissive/' /etc/selinux/config
