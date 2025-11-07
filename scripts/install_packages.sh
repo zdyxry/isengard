@@ -4,7 +4,7 @@ set -ouex pipefail
 
 sysadmin_packages=(
   "easytier"
-  "tigervnc"
+  "tigervnc-server"
 )
 
 packages=(
