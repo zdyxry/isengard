@@ -9,3 +9,5 @@ gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-ac-type 'no
 # Apply IP Forwarding before installing Docker to prevent messing with LXC networking
 sysctl -p
 
+# Disable SELinux
+sed -i 's/^SELINUX=.*/SELINUX=disabled/' /etc/selinux/config
